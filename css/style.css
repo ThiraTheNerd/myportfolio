@@ -276,7 +276,7 @@ h6 {
   height: 100vh;
   background-size: cover;
   position: relative;
-  background: url("/assets/img/thira.jpeg") no-repeat;
+  background: url("https://res.cloudinary.com/playboard/image/upload/v1628733121/51013354_ntuljf.jpg") no-repeat;
   margin-left: 50px;
   padding-left: 150px;
   position: relative;
