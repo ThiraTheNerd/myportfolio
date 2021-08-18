@@ -695,7 +695,7 @@ section {
 .contact .info-box .social-links a {
   font-size: 18px;
   display: inline-block;
-  color: rgba(255, 8, 37, 0.95);
+  color: white;
   line-height: 1;
   margin-right: 12px;
   transition: 0.3s;
