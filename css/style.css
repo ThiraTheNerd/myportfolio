@@ -8,12 +8,12 @@ body {
 }
 
 a {
-  color: #E93B81;
+  color: rgba(255, 8, 37, 0.95);
   text-decoration: none;
 }
 
 a:hover {
-  color: #E93B81;
+  color: rgba(255, 8, 37, 0.95);
   text-decoration: none;
 }
 
@@ -36,7 +36,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #E93B81;
+  background: rgba(255, 8, 37, 0.95);
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -50,7 +50,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #E93B81;
+  background: rgba(255, 8, 37, 0.95);
   color: #fff;
 }
 
@@ -78,7 +78,7 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #E93B81;
+  border: 6px solid rgba(255, 8, 37, 0.95);
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -211,7 +211,7 @@ h6 {
 .nav-menu .active:focus,
 .nav-menu li:hover > a {
   color: #fff;
-  background: #E93B81;
+  background: rgba(5, 5, 5, 0.95);
 }
 
 .nav-menu a:hover span,
@@ -235,7 +235,7 @@ h6 {
 /**
 * Mobile Navigation 
 */
-.mobile-nav-toggle {
+/* .mobile-nav-toggle {
   position: fixed;
   right: 10px;
   top: 10px;
@@ -249,7 +249,7 @@ h6 {
   cursor: pointer;
   border-radius: 50px;
   padding: 5px;
-}
+} */
 
 .mobile-nav-toggle i {
   color: #45505b;
@@ -265,7 +265,7 @@ h6 {
 
 .mobile-nav-active .mobile-nav-toggle {
   color: #fff;
-  background-color: #E93B81;
+  background-color: rgba(255, 8, 37, 0.95);
 }
 
 /*--------------------------------------------------------------
@@ -276,30 +276,29 @@ h6 {
   height: 100vh;
   background-size: cover;
   position: relative;
-  background: url("../assets/img/thira.jpeg") no-repeat;
-  margin-left: 50px;
-  padding-left: 150px;
+  background: linear-gradient(rgba(255, 8, 37, 0.95), rgba(239, 35, 60, .95)), url(../img/hero-bg.jpg);
   position: relative;
   margin-top: 50px;
-  margin-right: 140px;
 }
 
 @media (min-width: 992px) {
   #hero {
-    padding-left: 400px;
+    padding-left: 200px;
   }
 }
 
 #hero h1 {
   margin: 0;
-  font-size: 44px;
+  font-size: 64px;
   font-weight: 700;
   line-height: 56px;
-  color: #d86593;
+  color: #ffffff;
+  margin-bottom: 50px;
+  margin-top: 100px;
 }
 
 #hero p {
-  color: #45505b;
+  color: #ffffff;
   margin: 15px 45px 0 0;
   font-size: 16px;
   font-family: "Poppins", sans-serif;
@@ -318,14 +317,15 @@ h6 {
 #hero .social-links a {
   font-size: 24px;
   display: inline-block;
-  color: #45505b;
+  color: #ffffff;
   line-height: 1;
   margin-right: 20px;
   transition: 0.3s;
+  margin-top: 40px;
 }
 
 #hero .social-links a:hover {
-  color: #E93B81;
+  color: #ffffff;
 }
 
 @media (max-width: 992px) {
@@ -340,6 +340,8 @@ h6 {
     margin-top: 10px;
     font-size: 20px;
     line-height: 24px;
+    color: #ffffff;
+    margin-bottom: 50px;
   }
 }
 
@@ -363,7 +365,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #E93B81;
+  color: rgba(255, 8, 37, 0.95);
 }
 
 .section-title h2::before {
@@ -383,7 +385,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #E93B81;
+  background: rgba(255, 8, 37, 0.95);
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -426,7 +428,7 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: #E93B81;
+  color: rgba(255, 8, 37, 0.95);
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -526,7 +528,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #E93B81;
+  color: rgba(255, 8, 37, 0.95);
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -575,14 +577,14 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #E93B81;
+  border: 1px solid rgba(255, 8, 37, 0.95);
 }
 
 .portfolio-details
   .portfolio-details-slider
   .swiper-pagination
   .swiper-pagination-bullet-active {
-  background-color: #E93B81;
+  background-color: rgba(255, 8, 37, 0.95);
 }
 
 .portfolio-details .portfolio-info {
@@ -658,12 +660,12 @@ section {
   color: #444444;
   padding: 20px;
   width: 100%;
-  background: rgba(243, 192, 192, 0.747);
+  background: rgba(255, 8, 37, 0.95);
 }
 
 .contact .info-box i.bx {
   font-size: 24px;
-  color: #E93B81;
+  color: white;
   border-radius: 50%;
   padding: 14px;
   float: left;
@@ -693,7 +695,7 @@ section {
 .contact .info-box .social-links a {
   font-size: 18px;
   display: inline-block;
-  color: #E93B81;
+  color: rgba(255, 8, 37, 0.95);
   line-height: 1;
   margin-right: 12px;
   transition: 0.3s;
@@ -725,7 +727,7 @@ section {
 --------------------------------------------------------------*/
 #footer {
   background: #f7f8f9;
-  color: #45505b;
+  color: black;
   font-size: 14px;
   text-align: center;
   padding: 30px 0;
