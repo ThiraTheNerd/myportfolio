@@ -2,7 +2,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #272829;
   overflow-x: hidden;
 }
@@ -23,7 +23,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -62,7 +62,7 @@ h6 {
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
-#preloader {
+/* #preloader {
   position: fixed;
   top: 0;
   left: 0;
@@ -109,11 +109,11 @@ h6 {
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
 --------------------------------------------------------------*/
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   [data-aos-delay] {
     transition-delay: 0 !important;
   }
-}
+/* } */ 
 
 /*--------------------------------------------------------------
 # Header
@@ -125,9 +125,47 @@ h6 {
   bottom: 0;
   z-index: 9997;
   transition: all 0.5s;
+  padding-top: 3px;
   padding: 15px;
   overflow-y: auto;
  
+}
+.masthead {
+  /* padding-top: calc(6rem + 74px); */
+  padding-bottom: 6rem;
+}
+.masthead .masthead-heading {
+  font-size: 2.75rem;
+  line-height: 2.75rem;
+}
+.masthead .masthead-subheading {
+  font-size: 1.25rem;
+}
+.masthead .masthead-avatar {
+  width: 15rem;
+}
+.masthead .masthead-avatar{
+  
+  margin: 15px auto;
+  display: block;
+  width: 180px;
+  border: 8px solid #eff0f6;
+}
+
+
+@media (min-width: 992px) {
+  .masthead {
+    /* padding-top: calc(6rem + 104px); */
+    padding-top: 30px;
+    padding-bottom: 6rem;
+  }
+  .masthead .masthead-heading {
+    font-size: 3rem;
+    line-height: 3.5rem;
+  }
+  .masthead .masthead-subheading {
+    font-size: 1.5rem;
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -139,9 +177,20 @@ h6 {
   }
 }
 
+
 @media screen and (min-width: 768px) {
   #main {
     margin-left: 100px;
+  }
+  
+}
+@media (min-width: 992px) {
+  .masthead .masthead-avatar{
+  
+    margin-top: 56px ;
+    display: block;
+    width: 180px;
+    border: 8px solid #eff0f6;
   }
 }
 
@@ -199,6 +248,59 @@ nav #mobile-menu {
   padding: 0 5px 0 7px;
   color: #45505b;
 }
+ul.navbar-nav {
+
+  font-size: 18px;
+  font-weight: 500;
+  color: #0b0909;
+  font-family: "Poppins", sans-serif;
+}
+header  div  .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #212431;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+.divider-custom {
+  margin: 1.25rem 0 1.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.divider-custom .divider-custom-line {
+  width: 100%;
+  max-width: 7rem;
+  height: 0.25rem;
+  background-color: #2c3e50;
+  border-radius: 1rem;
+  border-color: #2c3e50;
+}
+.divider-custom .divider-custom-line:first-child {
+  margin-right: 1rem;
+}
+.divider-custom .divider-custom-line:last-child {
+  margin-left: 1rem;
+}
+.divider-custom .divider-custom-icon {
+  color: #2c3e50;
+  font-size: 2rem;
+}
+.divider-custom.divider-light .divider-custom-line {
+  background-color: #050505;
+}
+.divider-custom.divider-light .divider-custom-icon {
+  color: #0b0909;
+}
+
 @media only screen   
 and (min-device-width : 768px)   
 /* and (max-device-width : 1024px)   */
@@ -284,7 +386,7 @@ and (min-device-width : 768px)
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 100vh;
+  /* height: 0vh; */
   background-size: cover;
   margin-top: 0px;
  
@@ -302,8 +404,8 @@ and (min-device-width : 768px)
 
 #hero h1 {
   margin: 0;
-  font-size: 40px;
-  font-weight: 700;
+  font-size: 50px;
+  font-weight: 500;
   color: black;
   margin-bottom: 20px;
 }
@@ -317,7 +419,7 @@ and (min-device-width : 768px)
 
 #hero h4 span {
   
-  font-weight: 1000;
+  font-weight: 300;
   color:#F7BB07;
   text-decoration: underline;
   text-decoration-color: #F7BB07;
