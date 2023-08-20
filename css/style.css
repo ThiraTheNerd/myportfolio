@@ -130,16 +130,26 @@ h6 {
   overflow-y: auto;
  
 }
+a.navbar-brand img{
+  padding-left: 20px;
+}
 .masthead {
   /* padding-top: calc(6rem + 74px); */
   padding-bottom: 6rem;
+  color: #ffff;
+  
+  height: 800px;
+  border :2px solid black;
+  background-color: #12254D;
 }
 .masthead .masthead-heading {
   font-size: 2.75rem;
-  line-height: 2.75rem;
+  /* line-height: 2.75rem;
+  color: #FFDE58; */
 }
 .masthead .masthead-subheading {
   font-size: 1.25rem;
+  /* color: #FFDE58; */
 }
 .masthead .masthead-avatar {
   width: 15rem;
@@ -225,13 +235,13 @@ nav #mobile-menu {
 .nav-menu a:focus {
   display: flex;
   align-items: center;
-  color: #45505b;
+  color: #FFDE58;
   padding: 10px 18px;
   margin-bottom: 8px;
   transition: 0.3s;
   font-size: 15px;
   border-radius: 50px;
-  background: #FAE472;
+  background: #12254D;
   height: 56px;
   width: 100%;
   overflow: hidden;
@@ -248,18 +258,28 @@ nav #mobile-menu {
   padding: 0 5px 0 7px;
   color: #45505b;
 }
+
 ul.navbar-nav {
 
-  font-size: 18px;
-  font-weight: 500;
-  color: #0b0909;
+  font-size: 14px;
+  color: #000000;
   font-family: "Poppins", sans-serif;
+  display: flex;
+  margin-left: 300px;
+ 
+
 }
+ul.navbar-nav li{
+  text-align: right !important;
+  margin-right: 150px; 
+
+}
+
 header  div  .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #212431;
-  color: #fff;
+  /* background: #ffffff; */
+  color: #ffffff;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -295,7 +315,7 @@ header  div  .social-links a {
   font-size: 2rem;
 }
 .divider-custom.divider-light .divider-custom-line {
-  background-color: #050505;
+  background-color: #ffffff;
 }
 .divider-custom.divider-light .divider-custom-icon {
   color: #0b0909;
